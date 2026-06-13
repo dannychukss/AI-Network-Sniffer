@@ -48,8 +48,27 @@ Through this project, I gained hands-on experience with:
 
 
 ## Steps
-<!-- Drag & drop screenshots here or use imgur and reference them using imgsrc -->
 
-Every screenshot should have some text explaining what the screenshot is about.
 
-*Ref 1: Live Flask SOC Dashboard Monitoring Traffic Streams*
+*Ref 1: Launching the Sniffer and live Flask SOC Dashboard*
+![Flask Dashboard Startup](https://github.com/YOUR_GITHUB_USERNAME/repo/assets/image-link-1.png)
+_This screenshot shows the initial bootup sequence of the sniffer script and the live initialization of the local Flask web framework._
+
+---
+
+*Ref 2: Real-time Traffic Ingestion and Threat Intelligence Flags*
+![Live Packet Streams](https://github.com/YOUR_GITHUB_USERNAME/repo/assets/image-link-2.png)
+_Here, the sniffer is actively capturing TCP and UDP streams. The system automatically queries the VirusTotal API when an unfamiliar external IP is detected, logging the results to our CSV file._
+
+---
+
+*Ref 3: Automated Email Alert Triggered by DDoS Simulation*
+![Email Alert Notification](https://github.com/YOUR_GITHUB_USERNAME/repo/assets/image-link-3.png)
+_When traffic thresholds are breached (simulating a DDoS scenario), the script immediately executes an SMTP routine to dispatch an automated security alert directly to the administrator's mailbox._
+
+---
+
+### 📺 Video Demonstration
+[![Watch the Demo](https://img.shields.io/badge/▶_Watch_Project_Demo_on_LinkedIn-0072b1?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/posts/chuks-daniel_cybersecurity-socanalyst-blueteam-activity-7466411795642130434-HRoA?utm_source=share&utm_medium=member_ios&rcm=ACoAAF68i9cBQ3sKIg1Z8O-VvnmusZZxm6zb-Qw)
+
+_Click the badge above to watch a full video walk-through of the AI Network sniffer capturing live traffic, identifying threats, and triggering alerts._
