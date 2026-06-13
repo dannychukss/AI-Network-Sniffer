@@ -50,14 +50,35 @@ Through this project, I gained hands-on experience with:
 ## Steps
 
 
-*Ref 1: Launching the Sniffer and live Flask SOC Dashboard*
-![Flask Dashboard Startup](https://github.com/YOUR_GITHUB_USERNAME/repo/assets/image-link-1.png)
+*Ref 1: Launching the Sniffer and Flask SOC Dashboard*
+<img width="1600" height="900" alt="Screenshot (17)" src="https://github.com/user-attachments/assets/a9f59809-74ba-4c18-a122-5bd3f982d21f" />
 _This screenshot shows the initial bootup sequence of the sniffer script and the live initialization of the local Flask web framework._
+
+
+
+
+<img width="1600" height="900" alt="Screenshot (14)" src="https://github.com/user-attachments/assets/19f298d6-1dd5-47e7-b54d-f96149c66c0c" />
+
+
+<img width="1170" height="1379" alt="IMG_2375" src="https://github.com/user-attachments/assets/03d0112b-aed8-49e0-843b-73098adb7b48" />
+
+
+<img width="1170" height="1361" alt="IMG_2376" src="https://github.com/user-attachments/assets/b897ffab-c0d3-4131-818e-1485ee9d2fb4" />
+
+
+<img width="1170" height="2532" alt="IMG_2374" src="https://github.com/user-attachments/assets/89f1dfa2-4793-4a3a-96cf-31e3055b0095" />
+
+
 
 ---
 
 *Ref 2: Real-time Traffic Ingestion and Threat Intelligence Flags*
-![Live Packet Streams](https://github.com/YOUR_GITHUB_USERNAME/repo/assets/image-link-2.png)
+
+<img width="1600" height="900" alt="Screenshot (18)" src="https://github.com/user-attachments/assets/b236034f-6f3e-409c-b14a-89eb08fd3f8c" />
+
+
+<img width="1600" height="900" alt="Screenshot (19)" src="https://github.com/user-attachments/assets/366c1709-785e-4188-ad04-fd9306a1b554" />
+
 _Here, the sniffer is actively capturing TCP and UDP streams. The system automatically queries the VirusTotal API when an unfamiliar external IP is detected, logging the results to our CSV file._
 
 ---
